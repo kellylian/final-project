@@ -1,0 +1,263 @@
+  h1{font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;}
+  h2{
+    margin-top:40px;
+    text-align: center;
+  }
+    p{
+    line-height:1.6;
+    margin-bottom: 15px;
+  }
+  body{
+    background-color:#ffffff;
+    font-family:"Montserrat", sans-serif;
+    margin:0;
+  }
+  hr{
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+
+  header{
+    text-align: center;
+    padding: 5px 0;
+  }
+  /* Website Links except the nav */
+a{
+  color: #d4a017;
+  text-decoration: none;
+}
+
+a:link{
+  color: #764b04;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover {
+  text-decoration: underline;
+  color: #b8860b;
+}
+
+a:active{
+  color: black;
+}
+
+  nav{
+  text-align:center;
+  background-color:#f4c430;
+  border-top:3px solid black;
+  border-bottom:3px solid black;
+  padding: 5px 0;
+}
+nav ul{
+ list-style-type:none;
+ padding:0;
+ margin:8px 0;
+}
+nav li{
+  display:inline;
+  padding:10px 20px;
+}
+nav a{
+  text-decoration:none;
+  color:#222;
+}
+
+nav a:link{
+  color:rgb(118, 75, 4);
+}
+nav a:visited{
+  color:white;
+}
+nav a:hover{
+  color:black;
+}
+nav a:active{
+  color:beige;
+}
+  main{
+    max-width: 800px;
+    margin:40px auto;
+    padding:30px;
+    text-align:left;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  }
+  main ul{
+    padding-left:20px;
+  }
+  main li{
+    margin-bottom:8px;
+  }
+  main p{
+    text-align: left;
+    margin-bottom: 15px;
+    line-height: 1.7;
+  }
+  main h1{
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  main h2{
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+  }
+footer{
+  background-color:#1f1f1f;
+  color:white;
+  padding:30px 0;
+}
+
+footer i{
+  margin-right:5px;
+}
+
+footer a{
+  color:white;
+  text-decoration:none;
+}
+
+
+footer a:hover{
+  color:#f4c430;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
+.home-photo{
+  float:right;
+  max-width:150px;
+  margin: 15px;
+  height:auto;
+  border-radius: 50%;
+}
+.home-hero{
+  background-image: url("images/hero.jpg");
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.3);
+  text-align:center;
+  border-bottom: 3px solid black;
+}
+.home-hero h1{
+  margin:0;
+  color:white;
+  font-size:2em;
+  text-shadow:2px 2px 6px rgba(0,0,0,0.7);
+  padding-top:90px;
+  font-family:"Ubuntu", sans-serif;
+}
+#game{
+  display:block;
+  width:100%;
+  margin-top:30px;
+  text-align:center;
+}
+canvas{
+  display:block;
+  margin:20px auto;
+  border: 1px solid #d3d3d3;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+}
+.myButton{
+  background-color: #333;
+  color:white;
+  padding:10px 20px;
+  border-radius:8px;
+  border:none;
+  margin-top:10px;
+}
+
+.myButton:hover{
+  background-color: #555;
+}
+.game-controls{
+  text-align: center;
+}
+
+.game-controls, main h2{
+  text-align: center;
+}
+
+.logo{
+  max-width:230px;
+  height:auto;
+  display:block;
+  margin:5px auto;
+}
+.row i{
+  margin-bottom:15px;
+  color:#764b04;
+}
+.row a{
+  color:#764b04;
+  text-decoration:none;
+  font-weight:500;
+}
+
+.row a:hover{
+  color:black;
+}
+
+.resume-box {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.resume-content {
+  border-left: 4px solid #ccc; 
+  padding-left: 20px;
+}
+
+.resume-box h4 {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.resume-box p {
+  line-height: 1.6;
+}
+
+.resume-box ul {
+  padding-left: 20px;
+}
+.resume-box h1 {
+  margin-bottom: 10px;
+}
+
+.resume-box p.text-center {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+  
